@@ -20,7 +20,7 @@ async function runCode() {
   const code = editor.getValue();
   const language = document.getElementById("language").value;
 
-  const response = await fetch("https://your-backend.onrender.com/run", {
+  const response = await fetch("https://ide-backend-oaav.onrender.com/run", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -41,3 +41,4 @@ async function runCode() {
     document.getElementById("output").textContent = JSON.stringify(result, null, 2);
   }
 }
+
