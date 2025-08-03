@@ -42,6 +42,8 @@ async function runCode() {
   }
 }
 
+document.getElementById("runBtn").addEventListener("click", runCode);
+
 
 
 
