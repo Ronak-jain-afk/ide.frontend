@@ -1,0 +1,51 @@
+body {
+  background: #1e1e1e;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#language {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.CodeMirror {
+  height: 300px;
+  font-size: 14px;
+  background: #272822;
+  color: white;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+pre {
+  background: #222;
+  color: #0f0;
+  padding: 10px;
+  margin-top: 10px;
+  height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
