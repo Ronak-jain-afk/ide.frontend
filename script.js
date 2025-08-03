@@ -42,5 +42,6 @@ async function runCode() {
   }
 }
 
-window.runCode = runCode;
+
+
 
